@@ -1,0 +1,24 @@
+timestamp,level,message,user
+2024-06-01 10:00:00,INFO,User login,alice
+2024-06-01 10:01:00,INFO,User logout,alice
+2024-06-01 10:02:00,ERROR,Failed login,bob
+2024-06-01 10:03:00,INFO,User login,charlie
+2024-06-01 10:04:00,CRITICAL,System crash,root
+2024-06-01 10:02:00,ERROR,Failed login,bob
+2024-06-01 10:05:00,INFO,User login,alice
+2024-06-01 10:06:00,INFO,User logout,charlie
+2024-06-01 10:04:00,CRITICAL,System crash,root
+2024-06-01 10:07:00,ERROR,Failed login,alice
+2024-06-01 10:08:00,ERROR,Failed login,alice
+2024-06-01 10:09:00,ERROR,Failed login,alice
+2024-06-01 10:10:00,INFO,User login,alice
+2024-06-01 10:11:00,ERROR,Failed login,dave
+2024-06-01 10:12:00,ERROR,Failed login,dave
+2024-06-01 10:13:00,INFO,User login,dave
+2024-06-01 10:14:00,CRITICAL,Database failure,admin
+2024-06-01 10:15:00,INFO,User logout,admin
+2024-06-01 10:16:00,ERROR,Failed login,emma
+2024-06-01 10:17:00,ERROR,Failed login,emma
+2024-06-01 10:18:00,ERROR,Failed login,emma
+2024-06-01 10:19:00,INFO,User login,emma
+2024-06-01 10:20:00,INFO,User logout,emma 
