@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Results</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Filtered Log Results</h1>
+  <p>Parsed as: <b>{{ filetype }}</b></p>
+  <p><a href="/">Upload another file</a></p>
+  <table border="1">
+    <tr>{% for col in columns %}<th>{{ col }}</th>{% endfor %}</tr>
+    {% for row in rows %}<tr>{% for col in columns %}<td>{{ row[col] }}</td>{% endfor %}</tr>{% endfor %}
+  </table>
+  <h2>Anomalies Detected (after false positive filtering)</h2>
+  <ul>{% for anomaly in anomalies %}<li>{{ anomaly }}</li>{% endfor %}</ul>
+</body>
+</html> 
