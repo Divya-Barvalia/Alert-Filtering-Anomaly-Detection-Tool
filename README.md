@@ -1,7 +1,16 @@
 <h1 align="center">🛡️ Alert Filtering and Anomaly Detection Tool</h1>
 
 <hr/>
+<h2>🎥 Demo Video</h2>
+<p>
+  Watch a walkthrough of the Alert Filtering and Anomaly Detection Tool in action:
+</p>
+  <a href="https://youtu.be/webiEEQPGuk" target="_blank">
+    ▶️ Watch on YouTube
+  </a>
+</div>
 
+<hr/>
 <h2>📘 Project Overview</h2>
 
 <p>
