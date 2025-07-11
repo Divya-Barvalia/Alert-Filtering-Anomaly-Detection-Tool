@@ -80,8 +80,6 @@ def upload():
     anomaly_list = anomalies_filtered.to_dict('records')
     anomaly_msgs = [str(a) for a in anomaly_list]
 
-    # --- New logic: Detect 3 consecutive failed logins for the same user ---
-    # Sort by timestamp if possible
     if 'timestamp' in df_filtered.columns:
         try:
             df_filtered['timestamp'] = pd.to_datetime(df_filtered['timestamp'])
@@ -102,8 +100,6 @@ def upload():
                     anomaly_msgs.append(f"User '{user}' had 3 consecutive failed logins at {', '.join(times)}")
                     # Optionally, skip overlapping runs
                     # break
-    # --- End new logic ---
-
     return render_template(
         'results.html',
         columns=df_filtered.columns,
