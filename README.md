@@ -5,7 +5,7 @@
 <p>
   Watch a walkthrough of the Alert Filtering and Anomaly Detection Tool in action:
 </p>
-  <a href="https://youtu.be/_ZWUVBfX948" target="_blank">
+  <a href="https://youtu.be/y83ytWBb1W8" target="_blank">
     ▶️ Watch on YouTube
   </a>
 </div>
