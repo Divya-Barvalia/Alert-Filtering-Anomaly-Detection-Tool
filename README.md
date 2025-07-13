@@ -43,15 +43,15 @@ When a user uploads a log file (CSV, JSON, or cleartext), the app detects the fi
 </p>
 
 <p>
-It then performs anomaly detection by flagging entries only with log levels of <code>ERROR</code> or <code>CRITICAL</code>, but filters out known false positives based on a hardcoded list of (message, user) pairs.
+It then performs anomaly detection by flagging entries only with log levels of <code>ERROR</code> or <code>CRITICAL</code>, but filters out known false positives based on a hardcoded list of (message, user) pairs. This can be configured by adding or removing certain log levels to filter.
 </p>
 
 <p>
-Additionally, the script analyzes the logs for each user to detect and flag any occurrence of three consecutive failed login attempts, regardless of false positive rules.
+Additionally, the script analyzes the logs for each user to detect and flag any occurrence of three consecutive failed login attempts, regardless of false positive rules. This can also be easily configured, allowing more or less failed logins to flag as an anomaly.
 </p>
 
 <p>
-The results—including the filtered log table, detected anomalies, and the log format used—are rendered using external HTML templates, allowing for a clean separation of logic and presentation. The app is structured for extensibility, with clear functions for parsing, filtering, and anomaly detection, and is ready for further enhancements such as advanced rules or user-driven configuration.
+The results—including the filtered log table, detected anomalies, and the log format used—are rendered using external HTML templates, allowing for a clean separation of logic and presentation. The app is structured for extensibility, with clear functions for parsing, filtering, and anomaly detection, and is ready for further enhancements such as advanced rules or user-driven configurations.
 </p>
 
 <hr/>
