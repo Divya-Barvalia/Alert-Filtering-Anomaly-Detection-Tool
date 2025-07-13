@@ -7,7 +7,7 @@
 </p>
 <ul>
   <li>Filtering the amount of logs an analyst has to look at and returning the most important logs that may be needed to investigate an incident.</li>
-  <li>Showing the anomalies detected throughout the logs.</li>
+  <li>Showing the anomalies detected throughout the logs and removing duplicate entries.</li>
   <li>Providing easy tuning for false positives, anomaly detection, and log filtering rules; making this very <strong>scalable</strong> and most importantly reducing the repetitive tasks like manual triaging, log sorting and dealing with false positives.</li>
 </ul>
 <hr/>
