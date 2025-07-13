@@ -1,16 +1,6 @@
 <h1 align="center">🛡️ Alert Filtering and Anomaly Detection Tool</h1>
+<hr/>
 
-<hr/>
-<h2>🎥 Demo Video</h2>
-<p>
-  Watch a walkthrough of the Alert Filtering and Anomaly Detection Tool in action:
-</p>
-  <a href="https://youtu.be/y83ytWBb1W8" target="_blank">
-    ▶️ Watch on YouTube
-  </a>
-</div>
-<hr/>
-<hr/>
 <h2>📄 Project Motivation</h2>
 <p>
   The creation and design of this project were motivated by a white paper I wrote at NJIT addressing a common problem among security analysts was the work fatigue/burnout of SOC analysts due to things like repetitive tasks and having to deal with lots of false positives. Top suggested solutions were to implement automation to streamline workflows and reduce cognitive overload. This tool does just that by:
@@ -20,7 +10,17 @@
   <li>Showing the anomalies detected throughout the logs.</li>
   <li>Providing easy tuning for false positives, anomaly detection, and log filtering rules; making this very <strong>scalable</strong> and most importantly reducing the repetitive tasks like manual triaging, log sorting and dealing with false positives.</li>
 </ul>
+<hr/>
 
+<h2>🎥 Demo Video</h2>
+<p>
+  Watch a walkthrough of the Alert Filtering and Anomaly Detection Tool in action:
+</p>
+  <a href="https://youtu.be/y83ytWBb1W8" target="_blank">
+    ▶️ Watch on YouTube
+  </a>
+</div>
+<hr/>
 <h2>📘 Project Overview</h2>
 
 <p>
