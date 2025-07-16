@@ -1,6 +1,6 @@
 [
-  {"timestamp": "2024-06-01 10:00:00", "level": "INFO", "message": "User login", "user": "alice"},
-  {"timestamp": "2024-06-01 10:01:00", "level": "INFO", "message": "User logout", "user": "alice"},
+  {"timestamp": "2024-06-01 10:00:00", "level": "LOW", "message": "User login", "user": "alice"},
+  {"timestamp": "2024-06-01 10:01:00", "level": "MEDIUM", "message": "User logout", "user": "alice"},
   {"timestamp": "2024-06-01 10:02:00", "level": "ERROR", "message": "Failed login", "user": "bob"},
   {"timestamp": "2024-06-01 10:03:00", "level": "INFO", "message": "User login", "user": "charlie"},
   {"timestamp": "2024-06-01 10:04:00", "level": "CRITICAL", "message": "System crash", "user": "root"},
