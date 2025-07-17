@@ -12,13 +12,18 @@
 </ul>
 <hr/>
 
-<h2>🎥 Demo Video</h2>
-<p>
-  Watch a walkthrough of the Alert Filtering and Anomaly Detection Tool in action:
-</p>
-  <a href="https://youtu.be/y83ytWBb1W8" target="_blank">
-    ▶️ Watch on YouTube
-  </a>
+<h2>🎥 Demo & Media</h2>
+  <p>
+    Explore the Alert Filtering and Anomaly Detection Tool in action:
+  </p>
+  <ul>
+    <li>
+      <a href="https://youtu.be/y83ytWBb1W8" >▶️ Watch the Demo on YouTube</a>
+    </li>
+    <li>
+      <a href="https://logsentry.onrender.com" >🌐 Visit the Live Website</a>
+    </li>
+  </ul>
 </div>
 <hr/>
 <h2>📘 Project Overview</h2>
