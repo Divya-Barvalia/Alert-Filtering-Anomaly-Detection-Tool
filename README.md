@@ -12,7 +12,7 @@
 </ul>
 <hr/>
 
-<h2>🎥 Demo & Media</h2>
+<h2>🎥 Demo & Web App</h2>
   <p>
     Explore the Alert Filtering and Anomaly Detection Tool in action:
   </p>
